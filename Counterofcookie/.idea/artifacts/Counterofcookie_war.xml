@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Counterofcookie:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Counterofcookie</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Counterofcookie-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Counterofcookie:war exploded" />
+    </root>
+  </artifact>
+</component>
